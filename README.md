@@ -4,4 +4,9 @@ My NixOS configuration files
 
 ## Usage
 
-Symlink `/etc/nixos/configuration.nix` to the appropriate `machines/<hostname>/configuration.nix` file and run `nixos-rebuild switch`.
+```command
+# ln -s machines/<hostname>/configuration.nix /etc/nixos/configuration.nix
+# ln -s machines/<hostname>/hardware-configuration.nix /etc/nixos/hardware-configuration.nix
+
+# nixos-rebuild switch
+```

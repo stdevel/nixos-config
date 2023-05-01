@@ -1,5 +1,5 @@
 { pkgs, ... }: {
-  users.users.fleaz = {
+  users.users.christian = {
     isNormalUser = true;
     extraGroups = [
       "wheel"
