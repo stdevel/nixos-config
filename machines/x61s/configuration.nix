@@ -22,34 +22,6 @@
   networking.networkmanager.enable = true;
   programs.nm-applet.enable = true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  # environment.systemPackages = with pkgs; [
-  #   vim
-  #   wget
-  #   curl
-  #   alacritty
-  #   sway
-  #   wayland
-  #   xdg-utils
-  #   glib
-  #   dracula-theme
-  #   gnome3.adwaita-icon-theme
-  #   swaylock
-  #   swayidle
-  #   grim
-  #   slurp
-  #   wl-clipboard
-  #   bemenu
-  #   mako
-  #   wdisplays
-  #   firefox
-  #   neofetch
-  #   dmenu
-  #   dmenu-wayland
-  # ];
-
-
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
