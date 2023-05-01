@@ -1,6 +1,6 @@
 # nixos-config
 
-My NixOS configuration files
+My NixOS configuration files - I have no idea, what I'm doing.
 
 ## Usage
 
