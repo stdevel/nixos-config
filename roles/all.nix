@@ -6,6 +6,7 @@ in
   imports = [
     ../modules/sound.nix
     ../modules/ssh.nix
+    ../customOptions.nix
   ];
 
   # Set your time zone.
@@ -23,7 +24,7 @@ in
 
   };
   console = {
-    font = "Lat2-Terminus16";
+    font = consoleFont config.my.highDPI;
     keyMap = "de";
     # useXkbConfig = true;
   };
